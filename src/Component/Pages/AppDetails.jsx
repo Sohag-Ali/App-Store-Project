@@ -4,32 +4,59 @@ import BarCharts from "./BarCharts";
 import { useParams } from 'react-router';
 import NotFound from './NotFound';
 import LoadingSpinner from '../Loading/LoadingSpining';
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
+
+const MySwal = withReactContent(Swal);
 
 const AppDetails = () => {
-
+    const [install, setInstall] = useState(false);
     const { apps, loading } = useHookApps();
     
         const { id } = useParams();
      const app = apps.find((ap) => String(ap.id) === id);
 
-
+    useEffect(() => {
+    const savedList = JSON.parse(localStorage.getItem("install")) || [];
+    const alreadyInstalled = savedList.some((a) => a.id === app?.id);
+    setInstall(alreadyInstalled);
+}, [app]);
 
 
   if (loading) return <LoadingSpinner></LoadingSpinner>
   if (!apps) return <NotFound></NotFound>
 
-        const {
-        companyName,
-        image,
-        ratings,
-        description,
-        ratingAvg,
-        reviews,
-        size,
-        title,
-        downloads,
+        const {companyName,image,ratings,description, ratingAvg, reviews,size, title,downloads,     
     } = app;
 
+        const handleInstall = () => {
+        setInstall(true);
+        const existList = JSON.parse(localStorage.getItem("install")) || [];
+
+        const isDuplicate = existList.some((a) => a.id === app.id);
+
+        if (isDuplicate) {
+            
+            Swal.fire({
+  icon: "error",
+  title: "Oops...",
+  text: `Already Installed.`,
+  footer: '<a href="#">Please Check Your Storage</a>'
+});
+ 
+            
+        } else {
+            const updatedList = [...existList, app];
+            localStorage.setItem("install", JSON.stringify(updatedList));
+        
+            Swal.fire({
+  title: `${title} installed Successfully`,
+  icon: "success",
+  draggable: true
+});
+        }
+    }; 
 
     return (
            <div className="px-4 md:px-0 py-6">
@@ -66,9 +93,9 @@ const AppDetails = () => {
                                 </span>
                             </div>
                         </div>
-                        <button 
+                        <button onClick={handleInstall} disabled={install}
                             className="bg-green-500 hover:bg-green-600 disabled:bg-gray-400 text-white font-medium px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg transition-colors duration-200 btn w-full sm:w-auto text-sm sm:text-base">
-                            {`Install Now (${size} MB)`}
+                            {install ? "Installed" : `Install Now (${size} MB)`}
                        
                         </button>
                     </div>

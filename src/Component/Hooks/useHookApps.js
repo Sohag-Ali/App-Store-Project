@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react"
 
-const HookApps = () => {
+const useHookApps = () => {
     const [apps, setApps] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -13,4 +13,4 @@ const HookApps = () => {
     return {apps, loading, error};
 }
 
-export default HookApps;
+export default useHookApps;

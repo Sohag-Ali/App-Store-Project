@@ -4,6 +4,8 @@ import Apps from '../Pages/Apps';
 import MainLayout from '../Layout/MainLayout';
 import Error from '../Pages/Error';
 import LoadingSpinner from '../Loading/LoadingSpining';
+import AppDetails from '../Pages/AppDetails';
+import InstallApp from '../Pages/InstallApp';
 
 
 
@@ -17,17 +19,25 @@ const router = createBrowserRouter([
             {
                 index: true,
                 Component: Home,
-                loader: () => fetch('./dataApps.json')
+                // loader: () => fetch('./dataApps.json')
             },
             {
                 path: '/apps',
                 Component: Apps,
             },
+            {
+                path: '/appDetails/:id',
+                Component: AppDetails
+            },
+            {
+                path: '/installApp',
+                Component: InstallApp
+            },
 
-            // {
-            //     path: '*',
-            //     element: <Error></Error>
-            // }
+            {
+                path: '*',
+                element: <Error></Error>
+            }
         ]
     },
 ])

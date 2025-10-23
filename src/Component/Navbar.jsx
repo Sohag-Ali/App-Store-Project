@@ -45,7 +45,7 @@ const Navbar = () => {
                                </li>
                                <li>
                                    <NavLink
-                                       to="/installed"
+                                       to="/installApp"
                                        className={({ isActive }) =>
                                            isActive ? "text-purple-600 font-bold" : "text-gray-500"
                                        }
@@ -88,7 +88,7 @@ const Navbar = () => {
                            </li>
                            <li>
                                <NavLink
-                                   to="/installed"
+                                   to="/installApp"
                                    className={({ isActive }) =>
                                        isActive ? "text-purple-600 font-bold" : "text-gray-500"
                                    }
