@@ -2,6 +2,9 @@ import React from 'react';
 import logo from "../assets/logo.png";
 import { NavLink } from "react-router";
 import githubimage from '../assets/github.png';
+import { FaHome } from "react-icons/fa";
+import { FaAppStore } from "react-icons/fa6";
+import { MdInstallDesktop } from "react-icons/md";
 const Navbar = () => {
     return (
           <div className="navbar bg-base-100 px-4 sm:px-6 lg:px-10">
@@ -31,7 +34,7 @@ const Navbar = () => {
                                        className={({ isActive }) =>
                                            isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }>
-                                       Home 
+                                       <FaHome />Home 
                                    </NavLink>
                                </li>
                                <li>
@@ -40,7 +43,7 @@ const Navbar = () => {
                                        className={({ isActive }) =>
                                            isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }>
-                                       App
+                                       <FaAppStore />App
                                    </NavLink>
                                </li>
                                <li>
@@ -50,7 +53,7 @@ const Navbar = () => {
                                            isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }
                                    >
-                                       Installation
+                                       <MdInstallDesktop />Installation
                                    </NavLink>
                                </li>
                            </ul>
@@ -73,7 +76,7 @@ const Navbar = () => {
                                        isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
-                                   Home
+                                   <FaHome />Home
                                </NavLink>
                            </li>
                            <li>
@@ -83,7 +86,7 @@ const Navbar = () => {
                                        isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
-                                   Apps
+                                   <FaAppStore />Apps
                                </NavLink>
                            </li>
                            <li>
@@ -93,7 +96,7 @@ const Navbar = () => {
                                        isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
-                                   Installation
+                                  <MdInstallDesktop /> Installation
                                </NavLink>
                            </li>
                        </ul>

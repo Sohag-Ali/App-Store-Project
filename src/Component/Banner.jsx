@@ -2,10 +2,13 @@ import React from 'react';
 import play from '../assets/Playstore.png'
 import appStore from '../assets/App Store.png'
 import heroPng from '../assets/hero.png'
+import { IoDownloadSharp } from "react-icons/io5";
+import { FaStar } from "react-icons/fa6";
+import { IoMdAppstore } from "react-icons/io";
 
 const Banner = () => {
     return (
-        <div className='flex flex-col gap-6 md:gap-8 justify-center items-center px-4 md:px-6 lg:px-10 my-6 md:my-10'>
+        <div className='flex flex-col gap-6 md:gap-8 justify-center items-center px-4 md:px-6 lg:px-10 my-6 md:my-10 '>
             <div className='w-full max-w-4xl'>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-3 overflow-hidden animate-pulse  mx-auto'>
                     We Build <br /> 
@@ -32,20 +35,32 @@ const Banner = () => {
                     <h1 className='text-2xl sm:text-3xl md:text-4xl mb-4 md:mb-6 font-bold'>Trusted by Millions, Built for You</h1>
                     <div className='flex flex-col sm:flex-row justify-center items-center gap-6 sm:gap-8 md:gap-12 lg:gap-20'>
                         <div className='text-center'>
-                            <p className='text-sm md:text-base'>Total Downloads</p>
-                            <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>29.6M</h2>
+                            <p className='text-sm md:text-base'>Total Downloads</p> 
+                            
+                               <div className='flex gap-2'>
+                                 <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>29.6M</h2>
+                                 <span className='text-3xl sm:text-4xl md:text-5xl font-bold my-1'> <IoDownloadSharp /></span>
+                               </div>
+                           
                             <p className='text-xs md:text-sm'>21% more than last month</p>
+                            
                         </div>
                         
                         <div className='text-center'>
                             <p className='text-sm md:text-base'>Total Reviews</p>
-                            <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>906K</h2>
+                            <div className='flex gap-2'>
+                                <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>906K</h2>
+                            <span  className='text-3xl sm:text-4xl md:text-5xl font-bold my-1' ><FaStar /></span>
+                            </div>
                             <p className='text-xs md:text-sm'>46% more than last month</p>
                         </div>
                         
                         <div className='text-center'>
                             <p className='text-sm md:text-base'>Active Apps</p>
-                            <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>132K</h2>
+                          <div className='flex gap-2'>
+                              <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold my-2'>132K</h2>
+                            <span className='text-3xl sm:text-4xl md:text-5xl font-bold my-1'><IoMdAppstore /></span>
+                          </div>
                             <p className='text-xs md:text-sm'>31 More Will Launch</p>
                         </div>
                     </div>

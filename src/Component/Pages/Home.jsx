@@ -6,6 +6,7 @@ import AppHome from "./AppHome";
 import LoadingSpinner from "../Loading/LoadingSpining";
 import NotFound from "./NotFound";
 import useHookApps from "../Hooks/useHookApps";
+import { IoMdTrendingUp } from "react-icons/io";
 
 const Home = () => {
   const { apps, loading } = useHookApps();
@@ -20,7 +21,10 @@ const Home = () => {
       <Banner></Banner>
       <div className="my-6 md:my-10 text-center px-4 md:px-0">
         <div className="mb-6 md:mb-10">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-2">Trending Apps</h1>
+          <div className="flex gap-2 text-center justify-center items-center text-3xl sm:text-4xl font-bold mb-2">
+            <h1>Trending Apps </h1>
+          <span ><IoMdTrendingUp /></span>
+          </div>
           <p className="text-gray-400 text-sm sm:text-base">
             Explore All Trending Apps on the Market developed by us.
           </p>

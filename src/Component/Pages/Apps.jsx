@@ -3,6 +3,7 @@ import LoadingSpinner from "../Loading/LoadingSpining";
 import NotFound from "./NotFound";
 import Allapps from "./Allapps";
 import useHookApps from "../Hooks/useHookApps";
+import { VscVscodeInsiders } from "react-icons/vsc";
 
 const Apps = () => {
   const { apps, loading } = useHookApps();
@@ -20,7 +21,10 @@ const Apps = () => {
   return (
     <div className="py-6 md:py-10">
       <div className="text-center mb-6 md:mb-10 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold text-[#001931]">Our All Applications</h1>
+        <div className="flex gap-2 text-3xl sm:text-4xl font-bold text-[#001931] justify-center items-center">
+          <h1 className="">Our All Applications</h1>
+        <span className="text-purple-600"><VscVscodeInsiders /></span>
+        </div>
         <p className="text-gray-400 mt-2 text-sm sm:text-base">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
