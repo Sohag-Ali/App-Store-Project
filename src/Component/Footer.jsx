@@ -11,6 +11,24 @@ const Footer = () => {
             HERO.IO
           </span>
         </span>
+        <nav>
+          <h6 className="footer-title">Services</h6>
+          <div className="flex flex-col gap-2">
+            <a className="link link-hover">Branding</a>
+          <a className="link link-hover">Design</a>
+          <a className="link link-hover">Marketing</a>
+          <a className="link link-hover">Advertisement</a>
+          </div>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Company</h6>
+          <div className="flex flex-col gap-2">
+            <a className="link link-hover">About us</a>
+          <a className="link link-hover">Contact</a>
+          <a className="link link-hover">Jobs</a>
+          <a className="link link-hover">Press kit</a>
+          </div>
+        </nav>
         <nav className="text-center sm:text-left">
           <h6 className="footer-title text-white text-base sm:text-lg mb-3">
             Social Links
@@ -62,18 +80,14 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          
         </nav>
-        
-        
       </div>
       <div className="border-1 border-gray-700 w-full"></div>
-      
+
       <aside className="footer sm:footer-horizontal footer-center p-4">
         <p className="text-white text-center ">
-          Copyright © {new Date().getFullYear()} - All right reserved by Sohag Ali
-
-          
+          Copyright © {new Date().getFullYear()} - All right reserved by Sohag
+          Ali
         </p>
       </aside>
     </footer>
