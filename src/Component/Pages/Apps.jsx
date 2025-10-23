@@ -35,7 +35,7 @@ const Apps = () => {
           <span>({searchApps.length})</span> Apps Found
         </p>
 
-        <label className="input transform transition-transform  duration-300 hover:scale-103 transform transition-transform  duration-300 hover:scale-105 hover:shadow-xl">
+        <label className="input transform transition-transform  duration-300 hover:scale-103 transform transition-transform  duration-300 hover:scale-105 hover:shadow-xl border-purple-300">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
