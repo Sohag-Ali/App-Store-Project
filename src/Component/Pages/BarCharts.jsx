@@ -16,7 +16,7 @@ const BarCharts = ({ ratings }) => {
                     <Tooltip contentStyle={{ fontSize: 12 }} cursor={{ fill: 'rgba(63, 81, 255, 0.1)' }}></Tooltip>
 
                     <Legend wrapperStyle={{ fontSize: 12 }}></Legend>
-                    <Bar dataKey="count" fill="orange" barSize={30} radius={[0, 8, 8, 0]}></Bar>
+                    <Bar dataKey="count" fill="tomato" barSize={30} radius={[0, 8, 8, 0]}></Bar>
                 </BarChart>
             </ResponsiveContainer>
         </div>

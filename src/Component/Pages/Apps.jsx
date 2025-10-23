@@ -20,7 +20,7 @@ const Apps = () => {
   return (
     <div className="py-6 md:py-10">
       <div className="text-center mb-6 md:mb-10 px-4">
-        <h1 className="text-3xl sm:text-4xl font-bold">Our All Applications</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#001931]">Our All Applications</h1>
         <p className="text-gray-400 mt-2 text-sm sm:text-base">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
@@ -31,7 +31,7 @@ const Apps = () => {
           <span>({searchApps.length})</span> Apps Found
         </p>
 
-        <label className="input">
+        <label className="input transform transition-transform  duration-300 hover:scale-103 transform transition-transform  duration-300 hover:scale-105 hover:shadow-xl">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"

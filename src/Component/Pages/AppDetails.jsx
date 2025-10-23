@@ -6,6 +6,9 @@ import NotFound from './NotFound';
 import LoadingSpinner from '../Loading/LoadingSpining';
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import downloadImage from '../../assets/downloads.png'
+import ratingImage from '../../assets/ratings.png'
+import reviewImage from '../../assets/review.png'
 
 
 const MySwal = withReactContent(Swal);
@@ -69,30 +72,32 @@ const AppDetails = () => {
                         </h3>
                         <p className="text-xs sm:text-sm text-gray-500 mb-4">Developed by <span className="text-base sm:text-lg text-blue-600">{companyName}</span> 
                         </p>
-                        <hr className="text-gray-300 mb-4"/>
-                        <div className="grid grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-4">
+                        <hr className="text-gray-300 mb-6"/>
+
+                        <div className="flex gap-8 sm:gap-18 md:gap-28 mb-4">
                             <div className="flex flex-col items-center">
-                                <p className="text-green-500">↓</p>
-                                <span className="text-xs text-gray-500 mb-1">Downloads</span>
+                                 <img className=' h-4 mb-2' src={downloadImage} alt="" /> 
+                                <p className="text-xs text-gray-500 mb-1">Downloads</p>
                                 <span className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                                     {downloads.toLocaleString()}
                                 </span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <p className="text-orange-400">★</p>
-                                <span className="text-xs text-gray-500 mb-1">Rating</span>
+                                <img className='h-3 mb-2' src={ratingImage} alt="" />
+                                <p className="text-xs text-gray-500 mb-1">Avarage Rating</p>
                                 <span className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                                     {ratingAvg}
                                 </span>
                             </div>
                             <div className="flex flex-col items-center">
-                                <p><img className="w-5 h-5" src={reviews} alt=""/></p>
-                                <span className="text-xs text-gray-500 mb-1">Reviews</span>
+                                <img className='h-6 w-6 mb-1' src={reviewImage } alt="" />
+                                <p className="text-xs text-gray-500 mb-1">Total Reviews</p>
                                 <span className="text-sm sm:text-base md:text-lg font-bold text-gray-900">
                                     {reviews.toLocaleString()}
                                 </span>
                             </div>
                         </div>
+
                         <button onClick={handleInstall} disabled={install}
                             className="bg-green-500 hover:bg-green-600 disabled:bg-gray-400 text-white font-medium px-4 sm:px-6 py-2 sm:py-2.5 rounded-lg transition-colors duration-200 btn w-full sm:w-auto text-sm sm:text-base">
                             {install ? "Installed" : `Install Now (${size} MB)`}

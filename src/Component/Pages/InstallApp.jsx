@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import downloadImage from '../../assets/downloads.png'
+import ratingImage from '../../assets/ratings.png'
 
 const MySwal = withReactContent(Swal);
 
@@ -55,7 +57,7 @@ const InstallApp = () => {
   return (
     <div className="mb-20 px-4 md:px-0">
       <div className="text-center my-6 md:my-10">
-        <h1 className="text-3xl sm:text-4xl font-bold">Your Installed Apps</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold text-[#001931]">Your Installed Apps</h1>
         <p className="text-gray-400 mt-2 text-sm sm:text-base">
           Explore All the trending Apps Developed By us.
         </p>
@@ -93,17 +95,20 @@ const InstallApp = () => {
                   {saved.title}
                 </h3>
                 <div className="flex items-center gap-2 sm:gap-3 mt-1 flex-wrap">
-                  <span className="text-xs sm:text-sm text-green-600">
-                    ↓ {saved.downloads.toLocaleString()}
-                  </span>
-                  <span className="text-xs sm:text-sm text-orange-500">
-                    ★ {saved.ratingAvg}
-                  </span>
+                  <div className="text-xs sm:text-sm text-green-600 flex gap-2">
+                     <img className=' h-4' src={downloadImage} alt="" /> 
+                    <p>{saved.downloads.toLocaleString()}</p>
+                  </div>
+                  <div className="text-xs sm:text-sm text-orange-500 flex gap-2">
+                     <img className='h-3' src={ratingImage} alt="" />
+                    <p>{saved.ratingAvg}</p>
+                  </div>
                   <span className="text-xs sm:text-sm text-gray-500">
                     {saved.size} MB
                   </span>
                 </div>
               </div>
+
             </div>
             <button
               onClick={() => handleDelete(saved.id, saved.title)}

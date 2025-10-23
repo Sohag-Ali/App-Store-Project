@@ -6,7 +6,7 @@ const NotFound = () => {
     const navigate = useNavigate();
     return (
        <div className='flex flex-col gap-10 justify-center items-center my-20'>
-            <img className='animate-bounce' src={notFound} alt="" />
+            <img className='animate-pulse' src={notFound} alt="" />
             <div className='text-center'>
                 <h1 className='text-5xl'>Oops, Apps not found!</h1>
                 <p className='p-5 text-gray-400'>The App you are looking for is not available.</p>

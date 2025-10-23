@@ -29,7 +29,7 @@ const Navbar = () => {
                                    <NavLink
                                        to="/"
                                        className={({ isActive }) =>
-                                           isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                           isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }>
                                        Home 
                                    </NavLink>
@@ -38,7 +38,7 @@ const Navbar = () => {
                                    <NavLink
                                        to="/apps"
                                        className={({ isActive }) =>
-                                           isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                           isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }>
                                        App
                                    </NavLink>
@@ -47,7 +47,7 @@ const Navbar = () => {
                                    <NavLink
                                        to="/installApp"
                                        className={({ isActive }) =>
-                                           isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                           isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                        }
                                    >
                                        Installation
@@ -58,7 +58,7 @@ const Navbar = () => {
                        <NavLink to='/'>
                            <span className="btn btn-ghost text-base sm:text-lg md:text-xl px-2 sm:px-4">
                                <img className="h-6 w-6 sm:h-8 sm:w-8" src={logo} alt="Logo" />
-                               <span className="bg-gradient-to-r from-[#3f51ff] to-[#8a00ff] bg-clip-text text-transparent hidden sm:inline-block overflow-hidden whitespace-nowrap border-r-4 border-gray-400 animate-typing">
+                               <span className="bg-gradient-to-r from-[#3f51ff] to-[#8a00ff] bg-clip-text text-transparent hidden sm:inline-block overflow-hidden">
                                    HERO.IO
                                </span>
                            </span>
@@ -70,7 +70,7 @@ const Navbar = () => {
                                <NavLink
                                    to="/"
                                    className={({ isActive }) =>
-                                       isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                       isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
                                    Home
@@ -80,7 +80,7 @@ const Navbar = () => {
                                <NavLink
                                    to="/apps"
                                    className={({ isActive }) =>
-                                       isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                       isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
                                    Apps
@@ -90,7 +90,7 @@ const Navbar = () => {
                                <NavLink
                                    to="/installApp"
                                    className={({ isActive }) =>
-                                       isActive ? "text-purple-600 font-bold" : "text-gray-500"
+                                       isActive ? "text-purple-600 font-bold underline" : "text-gray-500"
                                    }
                                >
                                    Installation

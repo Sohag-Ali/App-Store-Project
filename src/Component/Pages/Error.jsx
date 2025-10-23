@@ -9,7 +9,7 @@ const Error = () => {
     return (
         <div className='flex flex-col gap-6 md:gap-10 justify-center items-center my-12 md:my-20 px-4'>
             
-            <img className='animate-bounce w-48 sm:w-64 md:w-80 lg:w-96' src={errorImgage} alt=""/>
+            <img className='animate-pulse w-48 sm:w-64 md:w-80 lg:w-96' src={errorImgage} alt=""/>
             <div className='text-center'>
                 <h1 className='text-3xl sm:text-4xl md:text-5xl font-bold'>
                     Oops, page not found!
