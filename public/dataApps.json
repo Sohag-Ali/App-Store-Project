@@ -1,0 +1,794 @@
+[
+  {
+    "image": "https://img.icons8.com/fluency/200/task.png",
+    "title": "NoteCraft",
+    "companyName": "Paperless Labs",
+    "id": 101,
+    "description": "Minimal yet powerful note-taking with markdown, tags, and offline sync. Turn thoughts into organized docs fast.",
+    "size": 24.9,
+    "reviews": 17100,
+    "ratingAvg": 4.6,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/chef-hat.png",
+    "title": "MealPlanner+",
+    "companyName": "Kitchenware Digital",
+    "id": 102,
+    "description": "Smart meal planning with nutrition targets, grocery lists, and leftover suggestions to reduce waste.",
+    "size": 52.3,
+    "reviews": 10000,
+    "ratingAvg": 4.5,
+    "downloads": 5100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3100 },
+      { "name": "5 star", "count": 5630 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/airplane-take-off.png",
+    "title": "TravelMate",
+    "companyName": "Wander Apps",
+    "id": 103,
+    "description": "Trip builder with offline maps, visa tips, and cost split. Share itineraries with friends in one tap.",
+    "size": 58.1,
+    "reviews": 13000,
+    "ratingAvg": 4.6,
+    "downloads": 8600000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 7600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/lock.png",
+    "title": "CryptoGuard",
+    "companyName": "LedgerSafe Ltd",
+    "id": 104,
+    "description": "Track crypto portfolios with live alerts, cold-wallet watch, and DCA reminders. Security-first by design.",
+    "size": 33.7,
+    "reviews": 15400,
+    "ratingAvg": 4.4,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/microphone.png",
+    "title": "Mindful Moments",
+    "companyName": "CalmSphere",
+    "id": 105,
+    "description": "Guided meditations, breathing timers, and focus soundscapes. Build a daily mindfulness habit.",
+    "size": 41.9,
+    "reviews": 11200,
+    "ratingAvg": 4.8,
+    "downloads": 4700000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 6500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/camera.png",
+    "title": "PhotoSpark",
+    "companyName": "Creative Forge",
+    "id": 106,
+    "description": "Tap-to-enhance photo editor with AI filters, RAW support, and batch export.",
+    "size": 46.2,
+    "reviews": 18650,
+    "ratingAvg": 4.5,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 930 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 10300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/book.png",
+    "title": "StudyForge",
+    "companyName": "BrightMind Labs",
+    "id": 107,
+    "description": "Active recall flashcards, spaced repetition, and exam-mode analytics for serious learners.",
+    "size": 35.6,
+    "reviews": 14900,
+    "ratingAvg": 4.7,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7260 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/task.png",
+    "title": "WorkFlow X",
+    "companyName": "Productivity Stack",
+    "id": 108,
+    "description": "Kanban, Gantt, and automations in one place. Integrates with Slack, Drive, and Git.",
+    "size": 29.4,
+    "reviews": 9800,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/code.png",
+    "title": "ScanPro",
+    "companyName": "Pocket Tools",
+    "id": 109,
+    "description": "Edge-detect scanning to PDF, OCR in 20+ languages, and auto-upload to cloud.",
+    "size": 22.7,
+    "reviews": 12100,
+    "ratingAvg": 4.5,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 410 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5170 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/task.png",
+    "title": "HabitHero",
+    "companyName": "Daily Streaks Co",
+    "id": 110,
+    "description": "Build habits with streaks, cues, and smart reminders. Visualize progress with heatmaps.",
+    "size": 21.5,
+    "reviews": 8700,
+    "ratingAvg": 4.7,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 4650 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/exercise.png",
+    "title": "FitStudio",
+    "companyName": "HealthWare",
+    "id": 111,
+    "description": "Adaptive workouts with form tips and rest-timer. Syncs with wearables for HR zones.",
+    "size": 63.0,
+    "reviews": 21400,
+    "ratingAvg": 4.8,
+    "downloads": 9200000,
+    "ratings": [
+      { "name": "1 star", "count": 220 },
+      { "name": "2 star", "count": 480 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 7100 },
+      { "name": "5 star", "count": 133 } 
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/music.png",
+    "title": "TuneBox",
+    "companyName": "HarmonyWorks",
+    "id": 112,
+    "description": "Stream, queue, and cast in lossless. Discover via mood, tempo, and local charts.",
+    "size": 39.1,
+    "reviews": 26800,
+    "ratingAvg": 4.5,
+    "downloads": 21000000,
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 8600 },
+      { "name": "5 star", "count": 135}
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/cloud.png",
+    "title": "RouteFinder",
+    "companyName": "MapTech",
+    "id": 113,
+    "description": "Multi-stop navigation with traffic forecasts and EV charger availability.",
+    "size": 36.7,
+    "reviews": 15600,
+    "ratingAvg": 4.6,
+    "downloads": 6800000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9820 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/news.png",
+    "title": "NewsPulse",
+    "companyName": "DailySignal Media",
+    "id": 114,
+    "description": "Personalized briefings, offline reading, and bias indicators across sources.",
+    "size": 27.9,
+    "reviews": 19800,
+    "ratingAvg": 4.4,
+    "downloads": 6400000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/code.png",
+    "title": "GameHub",
+    "companyName": "PlayByte",
+    "id": 115,
+    "description": "Cloud saves, controller support, and indie discovery. Track achievements across platforms.",
+    "size": 49.2,
+    "reviews": 12300,
+    "ratingAvg": 4.5,
+    "downloads": 5300000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5620 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/book.png",
+    "title": "ReadWise Go",
+    "companyName": "FocusWare",
+    "id": 116,
+    "description": "Read-it-later with highlights, spaced review, and AI summaries on the fly.",
+    "size": 31.8,
+    "reviews": 10100,
+    "ratingAvg": 4.7,
+    "downloads": 3800000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5580 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/wallet.png",
+    "title": "WalletPro",
+    "companyName": "FinanceGuard Inc",
+    "id": 117,
+    "description": "Expense tracking with receipt OCR, bill reminders, and savings goals.",
+    "size": 25.1,
+    "reviews": 17600,
+    "ratingAvg": 4.3,
+    "downloads": 4600000,
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3900 },
+      { "name": "4 star", "count": 6600 },
+      { "name": "5 star", "count": 4850 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/cloud.png",
+    "title": "WeatherNow",
+    "companyName": "MeteoLogic",
+    "id": 118,
+    "description": "Hyperlocal forecasts, radar layers, and severe alert push notifications.",
+    "size": 36.0,
+    "reviews": 21900,
+    "ratingAvg": 4.6,
+    "downloads": 12500000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 2200 },
+      { "name": "4 star", "count": 7200 },
+      { "name": "5 star", "count": 12500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/language.png",
+    "title": "TranslateX",
+    "companyName": "EduTech Global",
+    "id": 119,
+    "description": "Conversation mode, camera OCR, and offline packs for 40+ languages.",
+    "size": 70.8,
+    "reviews": 27800,
+    "ratingAvg": 4.9,
+    "downloads": 16000000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 17120 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/cloud-sync.png",
+    "title": "SecureFiles",
+    "companyName": "CyberShield Security",
+    "id": 120,
+    "description": "End-to-end encrypted cloud drive with vaults and share links that expire.",
+    "size": 55.0,
+    "reviews": 13400,
+    "ratingAvg": 4.8,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 740 },
+      { "name": "4 star", "count": 4100 },
+      { "name": "5 star", "count": 9230 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/shopping-cart.png",
+    "title": "ShopSaver",
+    "companyName": "DealSense",
+    "id": 121,
+    "description": "Price drops, barcode compare, and cashback tracking across top stores.",
+    "size": 32.4,
+    "reviews": 20400,
+    "ratingAvg": 4.3,
+    "downloads": 8800000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 7800 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/microphone.png",
+    "title": "AudioNotes",
+    "companyName": "VoiceWare",
+    "id": 122,
+    "description": "Record, transcribe, and clip highlights. Cloud backup keeps everything in sync.",
+    "size": 43.2,
+    "reviews": 11800,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 380 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 5120 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/home.png",
+    "title": "HomePlanner",
+    "companyName": "InteriorSoft",
+    "id": 123,
+    "description": "Plan rooms in 3D, try palettes, and export shopping lists for furniture.",
+    "size": 75.8,
+    "reviews": 14200,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 560 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 4860 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/cloud-sync.png",
+    "title": "CloudDrive+",
+    "companyName": "CloudTech Systems",
+    "id": 124,
+    "description": "Automatic backup, version history, and universal file viewer.",
+    "size": 54.6,
+    "reviews": 16800,
+    "ratingAvg": 4.4,
+    "downloads": 7200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/task.png",
+    "title": "TeamChat",
+    "companyName": "SyncCom",
+    "id": 125,
+    "description": "Channels, threads, and huddles with noise suppression and message AI-reply.",
+    "size": 34.1,
+    "reviews": 20900,
+    "ratingAvg": 4.6,
+    "downloads": 7600000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 11700 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/task.png",
+    "title": "EventPlanner",
+    "companyName": "GatherWorks",
+    "id": 126,
+    "description": "Create events with RSVP forms, seat maps, and ticket QR check-in.",
+    "size": 37.9,
+    "reviews": 9400,
+    "ratingAvg": 4.5,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 320 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/microphone.png",
+    "title": "Meditate",
+    "companyName": "ZenHabit",
+    "id": 127,
+    "description": "Daily sessions, sleep stories, and breathing widgets for your lock screen.",
+    "size": 40.5,
+    "reviews": 10500,
+    "ratingAvg": 4.8,
+    "downloads": 3700000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 6220 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/book.png",
+    "title": "KidsLearn",
+    "companyName": "EduPlay Studio",
+    "id": 128,
+    "description": "Phonics, math games, and progress badges for ages 4-10.",
+    "size": 38.4,
+    "reviews": 11500,
+    "ratingAvg": 4.7,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 6090 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/music.png",
+    "title": "PodcastPlay",
+    "companyName": "Audio Innovation",
+    "id": 129,
+    "description": "Smart queue, silence skip, and highlights with AI-generated show notes.",
+    "size": 44.0,
+    "reviews": 13800,
+    "ratingAvg": 4.6,
+    "downloads": 4800000,
+    "ratings": [
+      { "name": "1 star", "count": 240 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 6540 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/wallet.png",
+    "title": "StockWatch",
+    "companyName": "QuantaStreet",
+    "id": 130,
+    "description": "Realtime quotes, options chains, and custom screeners with webhooks.",
+    "size": 27.8,
+    "reviews": 17400,
+    "ratingAvg": 4.4,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 840 },
+      { "name": "2 star", "count": 1260 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 6300 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/dog.png",
+    "title": "PetLog",
+    "companyName": "Animal Friends LLC",
+    "id": 131,
+    "description": "Vet visits, vaccination reminders, and diet tracking for every pet.",
+    "size": 33.6,
+    "reviews": 9900,
+    "ratingAvg": 4.7,
+    "downloads": 3400000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 4720 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/video.png",
+    "title": "ClipMaster",
+    "companyName": "Creative Media Labs",
+    "id": 132,
+    "description": "Quick cuts, captions, and social export presets for creators.",
+    "size": 82.5,
+    "reviews": 15100,
+    "ratingAvg": 4.5,
+    "downloads": 5600000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 760 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 6520 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/news.png",
+    "title": "DailyDigest",
+    "companyName": "Digital Media Corp",
+    "id": 133,
+    "description": "Curated morning brief with categories, widgets, and shareable quotes.",
+    "size": 26.9,
+    "reviews": 12100,
+    "ratingAvg": 4.4,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 540 },
+      { "name": "2 star", "count": 680 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 4880 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/lock.png",
+    "title": "PassKeeper",
+    "companyName": "CyberShield Security",
+    "id": 134,
+    "description": "Password vault with biometric unlock and secure password sharing.",
+    "size": 20.0,
+    "reviews": 14100,
+    "ratingAvg": 4.9,
+    "downloads": 3900000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 720 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 9270 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/code.png",
+    "title": "CodePocket",
+    "companyName": "DevTools Pro",
+    "id": 135,
+    "description": "Mobile IDE with Git, terminals, and AI autocomplete for 50+ languages.",
+    "size": 47.9,
+    "reviews": 16700,
+    "ratingAvg": 4.5,
+    "downloads": 3300000,
+    "ratings": [
+      { "name": "1 star", "count": 460 },
+      { "name": "2 star", "count": 780 },
+      { "name": "3 star", "count": 2300 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 7560 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/airplane-take-off.png",
+    "title": "GlobeTrek",
+    "companyName": "Wanderlust Tech",
+    "id": 136,
+    "description": "City passes, hidden spots, and transit cards in one travel wallet.",
+    "size": 57.7,
+    "reviews": 18900,
+    "ratingAvg": 4.6,
+    "downloads": 7400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 520 },
+      { "name": "3 star", "count": 2600 },
+      { "name": "4 star", "count": 6400 },
+      { "name": "5 star", "count": 10080 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/camera.png",
+    "title": "HDR Snap",
+    "companyName": "Creative Studios Inc",
+    "id": 137,
+    "description": "Pro camera controls with zebra lines, RAW HDR, and LUT preview.",
+    "size": 45.4,
+    "reviews": 13200,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 260 },
+      { "name": "2 star", "count": 420 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 7220 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/wallet.png",
+    "title": "BudgetFlow",
+    "companyName": "Finance Guard",
+    "id": 138,
+    "description": "Zero-based budgeting, envelope categories, and monthly insights.",
+    "size": 24.2,
+    "reviews": 14700,
+    "ratingAvg": 4.3,
+    "downloads": 4400000,
+    "ratings": [
+      { "name": "1 star", "count": 720 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 3600 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/music.png",
+    "title": "SoundWave",
+    "companyName": "Harmony Digital",
+    "id": 139,
+    "description": "Hi-Fi streaming with offline mixes, crossfade, and smart DJ mode.",
+    "size": 40.2,
+    "reviews": 24100,
+    "ratingAvg": 4.5,
+    "downloads": 23000000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 840 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 127 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/chef-hat.png",
+    "title": "CookStudio",
+    "companyName": "Culinary Apps Co",
+    "id": 140,
+    "description": "Step-by-step recipes with timers, substitutions, and pantry sync.",
+    "size": 51.6,
+    "reviews": 16800,
+    "ratingAvg": 4.4,
+    "downloads": 6900000,
+    "ratings": [
+      { "name": "1 star", "count": 760 },
+      { "name": "2 star", "count": 1080 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 5800 },
+      { "name": "5 star", "count": 4960 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/code.png",
+    "title": "DevSnippet",
+    "companyName": "DevTools Pro",
+    "id": 141,
+    "description": "Save, tag, and share code snippets. Works offline with instant search.",
+    "size": 28.8,
+    "reviews": 9300,
+    "ratingAvg": 4.6,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 230 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 4650 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/cloud.png",
+    "title": "AirQuality",
+    "companyName": "MeteoTech",
+    "id": 142,
+    "description": "Live AQI with pollen, UV index, and health recommendations.",
+    "size": 35.0,
+    "reviews": 10800,
+    "ratingAvg": 4.6,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 160 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 5540 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/dog.png",
+    "title": "WalkBuddy",
+    "companyName": "Animal Friends LLC",
+    "id": 143,
+    "description": "Track pet walks, route heatmaps, and share with sitters.",
+    "size": 32.8,
+    "reviews": 7600,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4050 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/fluency/200/video.png",
+    "title": "ReelCut",
+    "companyName": "Creative Forge",
+    "id": 144,
+    "description": "Vertical-first editor with auto-captions and beat sync.",
+    "size": 83.9,
+    "reviews": 17300,
+    "ratingAvg": 4.5,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 620 },
+      { "name": "2 star", "count": 820 },
+      { "name": "3 star", "count": 2400 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 6860 }
+    ]
+  }
+]
