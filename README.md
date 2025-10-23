@@ -3,13 +3,13 @@
 *****Project Name : App Store*****
 
 
-*****Technology Used****
-**Talieind for Css,**
-**Deisyui for navbar and footer,**
-**react framework,**
-**reactrouter for Route my Project,***
-***sweetalret2,react icons,googlefont,react spping,rechart,***
-***this Project use LocalStored.***
+*****Technology Used :****
+**Talieind for Css ,**
+**Deisyui for navbar and footer ,**
+**react framework ,**
+**reactrouter for Route my Project ,***
+***sweetalret2 , react icons , googlefont , react spping , rechart ,***
+***this Project use LocalStored .***
 
 ***Description***
 Create a home page , app page , instlation page, App details page.
